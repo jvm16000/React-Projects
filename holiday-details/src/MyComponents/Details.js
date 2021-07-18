@@ -65,8 +65,8 @@ const onFormLayoutChange = ({ size }) => {
       <Form.Item
         name="store"
         label="Store"
-        rules={[{ required: true, message: 'Select the store!' }]}
-      >
+        rules={[{ required: true, message: 'Please select the store!' }]}
+        >
         <Select placeholder="Dummy1">
           <Option value="Dummy1">Dummy 1</Option>
           <Option value="Dummy2">Dummy 2</Option>
